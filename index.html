@@ -21,7 +21,7 @@
     el.addEventListener('change', function(){
         guesses += 1;
         if (el.value == num){
-            p.textContent = 'Du gissade rätt' + guesses + ' gissningar.';
+            p.textContent = 'Du gissade rätt ' + guesses + ' gissningar.';
         } else if (el.value > num) {
             p.textContent = 'Gissningen är för stor';
         } else if (el.value < num) {
